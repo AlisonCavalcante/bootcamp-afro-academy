@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .perfil {
@@ -16,12 +17,17 @@ body {
 .card-perfil {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    max-width: 300px;
+    /* max-width: 350px; */
 }
 
 .card-perfil__img {
     border-radius: 50%;
     width: 250px;
+}
+
+.card-pefil__body a {
+    color: inherit;
+    text-decoration: none;
 }
